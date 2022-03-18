@@ -1,0 +1,810 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.container {
+  width: 1240px;
+  padding: 0 20px;
+  margin-right: auto;
+  margin-left: auto;
+  /* text-align: justify; */
+}
+
+
+/*FONTS */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/roboto-v29-latin-regular.woff2") format("woff2"),
+       url("../fonts/roboto-v29-latin-regular.woff") format("woff"); 
+} 
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500; 
+  font-display: swap;
+  src: url("../fonts/roboto-v29-latin-500.woff2") format("woff2"), 
+       url("../fonts/roboto-v29-latin-500.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/roboto-v29-latin-700.woff2") format("woff2"), 
+       url("../fonts/roboto-v29-latin-700.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap; 
+  src: url("../fonts/hind-madurai-v10-latin-regular.woff2") format("woff2"), 
+       url("../fonts/hind-madurai-v10-latin-regular.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/hind-madurai-v10-latin-600.woff2") format("woff2"), 
+       url("../fonts/hind-madurai-v10-latin-600.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/hind-madurai-v10-latin-700.woff2") format("woff2"), 
+       url("../fonts/hind-madurai-v10-latin-700.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;  
+  src: url("../fonts/fredoka-one-v12-latin-regular.woff2") format("woff2"), 
+       url("../fonts/fredoka-one-v12-latin-regular.woff") format("woff");
+}        
+/* FONTS */
+
+
+/* HEADER */
+.main-site-header {
+  background-color: rgb(242, 206, 218);
+}
+
+.header-wrapper {
+  width: 1140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-site-logo-link {
+  text-decoration: none;
+}
+
+.main-nav-list {
+  width: 450px;
+  padding-left: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+.main-nav-link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgb(21, 1, 1);
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.main-nav-link:hover {
+  color: rgb(255, 2, 87);
+}
+
+.all-button {
+  width: 145px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(210, 49, 102); 
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.all-button:hover {
+  background-color: rgb(250, 250, 250);
+  border: 2px solid rgb(210, 49, 102);
+  border-radius: 5px;
+  color: rgb(210, 49, 102);
+}
+
+.all-button-content {
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+}
+/* //HEADER */
+
+
+/* HERO */
+.hero-section {
+  height: 800px;
+  background-color: rgb(242, 206, 218);
+}
+
+.hero-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(..//img/bg-image.png);
+  /* background-size: 60%; */
+  background-position: top 0 right -140px;
+  background-repeat: no-repeat;
+}
+
+.hero-wrapper-content {
+  height: 550px;
+  margin-top: 195px;
+}
+
+.hero-slogan {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgb(15, 1, 1);
+}
+
+.hero-heading {
+  width: 665px;
+  height: 130px;
+  margin-top: 6px;
+  margin-bottom: 35px;
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 57.33px;
+  line-height: 120.5%;
+  color: rgb(15, 1, 1);
+  opacity: 0.9;
+}
+
+.heading-last-word-style {
+  color: rgb(210, 49, 102);
+}
+
+.hero-content-paragraph {
+  width: 523px;
+  height: 78px;
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgb(15, 1, 1);
+  opacity: 0.6;
+}
+/* //HERO */
+
+
+/* FEATURES */
+.features-list {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 0;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+.features-items {
+  width: 250px;
+  height: 200px;
+  background: rgb(255, 255, 255);
+  border-radius: 7px;
+}
+
+.features-items:hover {
+  -webkit-box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.1);
+          box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.1);
+}
+
+.features-car-img {
+  margin: 33px 100px 24px 99px;
+}
+
+.features-drink-img {
+  margin: 35px 109px 23px 109px;
+}
+
+.features-cash-back-img {
+  margin: 33px 103px 23px 103px;
+}
+
+.features-fast-delivery-img {
+  margin: 27px 98px 18px 98px;
+}
+
+.features-items-heading {
+  margin-top: 0;
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.features-items-info {
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+  text-align: center;
+}
+/* //FEATURES */
+
+
+/* OATEMA */
+.oatema-section {
+  background-color: rgb(242, 206, 218);
+}
+
+.oatema-wrapper{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.oatema-wrapper-contents {
+  width: 450px;
+  margin-top: 190px;
+}
+
+.oatema-heading {
+  width: 349px;
+  height: 98.27px;
+  margin-bottom: 0;
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44.2px;
+  color: rgb(21, 1, 1);
+}
+
+.oatema-info {
+  width: 442px;
+  height: 58.16px;
+  margin-bottom: 35px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgb(21, 1, 1);
+  opacity: 0.6;
+}
+/* //OATEMA */
+
+
+/* OUR-PRODUCT */
+.our-product-heading {
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 61px;
+  color: rgb(21, 1, 1);
+  text-align: center;
+}
+
+.our-product-nav-list {
+  width: 1000px;
+  margin-left: 90px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+.our-product-nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.our-product-nav-link:hover {
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  -webkit-text-decoration: underline rgb(214, 67, 116);
+          text-decoration: underline rgb(214, 67, 116);
+}
+
+
+
+  /* MENU */
+.menu-ice-cream-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-ice-cream-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.menu-ice-cream-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-ice-cream-content {
+  width: 465px;
+  margin-top: 110px;
+  margin-left: 85px;
+}
+
+.menu-ice-cream-content-middle {
+  width: 465px;
+  margin-top: 110px;
+  margin-right: 85px;
+}
+
+.menu-ice-cream-img {
+  margin-top: 35px;
+}
+
+.menu-ice-cream-heading {
+  margin-bottom: 0;
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 36px;
+  color: rgb(0, 0, 0);
+}
+
+.menu-ice-cream-info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(0, 0, 0);
+  opacity: 0.7;
+}
+
+.menu-ice-cream-price {
+  margin-bottom: 18px;
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  color: rgb(0, 0, 0);
+}
+
+.menu-ice-cream-price-old {
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: rgb(0, 0, 0);
+  opacity: 0.7;
+}
+  /* //MENU */
+
+
+  /* CUSTOMER-FEEDBACK */
+.all-blockquote {
+  margin-bottom: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blockquote-wrapper {
+  margin-top: 200px;
+}
+
+.our-product-customer-feedback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.customer-info {
+  margin-left: 20px;
+}
+
+.customer-name {
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 8px;
+}
+
+.customer-nation {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgb(0, 0, 0);
+  opacity: 0.7;
+}
+
+.our-product-blockquote {
+  width: 322px;
+  height: 53px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(0, 0, 0);
+  opacity: 0.7;
+}
+
+.quotes-img {
+  display: block;
+}
+
+.quotes-img-left {
+  margin-top: 50px;
+}
+
+.quotes-img-right {
+  margin-left: 400px;
+}
+
+.customers-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cutomers-list {
+  width: 200px;
+  margin-top: 50px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+.vector-left-img {
+  margin-top: 55px;
+  margin-right: 45px;
+}
+
+.vector-right-img {
+  margin-top:55px;
+  margin-left: 45px;
+}
+
+.customer-man-img {
+  margin-top: 9px;
+}
+
+.ice-cream {
+  margin-top: 115px;
+  margin-left: 220px;
+}
+  /* //CUSTOMER-FEEDBACK */
+
+/* //OUR-PRODUCT */
+
+
+/* ORDER-HELP */
+.section-order-help {
+  background-color: rgb(242, 206, 218);
+}
+
+.order-help-wrapper {
+  margin-top: 105px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.order-help-content-wrapper {
+  margin-left: 135px;
+}
+
+.order-help-heading {
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44.2px;
+  line-height: 52px;
+  color: rgb(0, 0, 0);
+}
+
+.order-help-info {
+  width: 580px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: rgb(15, 1, 1);
+  opacity: 0.7;
+}
+
+.order-help-list {
+  width: 220px;
+  padding: 0;
+  list-style-type: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.order-help-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.order-help-items-info {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.download-list {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* //ORDER-HELP */
+
+
+/* QUESTIONS */
+.question-form-wrapper {
+  width: 670px;
+  height: 350px;
+  margin: 115px 250px 100px;
+}
+
+.question-form-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.number-question-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tel-number-question-type {
+  width: 303px;
+  height: 74px;
+  border: 1px solid rgb(255, 163, 163);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.question-type {
+  margin-left: 30px;
+}
+
+.question {
+  width: 500px;
+  height: 74px;
+  margin-top: 35px;
+  border: 1px solid rgb(255, 163, 163);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  border-right: none;
+}
+
+.questions-button {
+  width: 105px;
+  height: 74px;
+  background: rgb(214, 67, 116);
+  border-radius: 5px solid rgb(255, 255, 255);
+
+}
+/* //QUESTIONS */
+
+
+/* FOOTER */
+.all-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* justify-content: center; */
+}
+
+.main-footer {
+  background-color: rgb(0, 0, 0);
+}
+
+.footer-socialnet-info {
+  width: 207px;
+  height: 47px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+}
+
+.footer-follow-us {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgb(255, 255, 255);
+}
+
+.socialnet-list {
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+.footer-nav-wrapper {
+  margin-left: 40px;
+}
+
+.footer-nav-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-nav-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+}
+
+.footer-nav-link:hover {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgb(209, 198, 198);
+}
+
+.extra-footer-nav-wrapper {
+  margin-left: 130px;
+}
+
+.footer-payment-wrapper {
+  margin-left: 160px;
+}
+
+.footer-payment-email {
+  width: 250px;
+  height: 50px;
+  border: 2px solid rgb(214, 67, 116);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.button-footer-payment {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(210, 49, 102);
+  border-radius: 5px;
+}
+
+.payment-type-list {
+  padding: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-payment-content {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgb(255, 255, 255);
+}
+
+
+/* FOOTER */
